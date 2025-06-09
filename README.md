@@ -105,7 +105,13 @@ options:
                         File to save results
 ```
 
-⚠️ Legal Disclaimer
+## Wildcard DNS
+
+Some domains use a wildcard DNS setup, which means that any subdomain you try to scan will resolve to the same IP address or return a similar HTTP response—even if the subdomain doesn't actually exist.
+
+If `randomsub.example.com` returns HTTP 200 with some content, then any other subdomain returning exactly the same is probably a wildcard catch-all.
+
+## ⚠️ Legal Disclaimer
 This tool is for educational and authorized penetration testing only.
 Do not scan domains you do not own or have explicit permission to test.
 
