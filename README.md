@@ -97,7 +97,7 @@ options:
                         Path to wordlist with subdomains
   -t THREADS, --threads THREADS
                         Number of threads (default: 10)
-  --timeout TIMEOUT     Request timeout in seconds (default: 3)
+  --timeout TIMEOUT     Request timeout in seconds (default: 5)
   --https               Scan only HTTPS
   --http                Scan only HTTP
   --live                Show only live (200 OK) results
