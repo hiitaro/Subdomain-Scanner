@@ -23,6 +23,13 @@ Make sure you have **Python 3** installed.
 
 Install dependencies:
 
+Gitclone:
+
+```bash
+git clone https://github.com/hiitaro/Subdomain-Scanner.git
+cd Subdomain-Scanner
+```
+
 ```bash
 pip install requests colorama
 ```
