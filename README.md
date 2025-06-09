@@ -28,7 +28,7 @@ pip install requests colorama
 ```
 or
 ```bash
-pip install -r requestments.txt
+pip install -r requirements.txt
 ```
 
 ---
